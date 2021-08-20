@@ -6,6 +6,10 @@ TagManager:
   tags:
   - SalaDeJogos
   - Lobby
+  - Corredor
+  - Sala de Jantar
+  - "escrit\xF3rio"
+  - Biblioteca
   layers:
   - Default
   - TransparentFX
