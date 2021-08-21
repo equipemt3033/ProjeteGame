@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ece1788c5f8fb7247bb5b1efc3c3675b
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: a4f083f1f4303f24fb0af1ff6abb1e0b
+  - enabled: 1
+    path: Assets/Scenes/SalaDeJogos.unity
+    guid: 2b520d9a529f0e6429011344b8fbc25b
+  - enabled: 1
+    path: "Assets/Scenes/Escrit\xF3rio.unity"
+    guid: 26001fe23071672489a8c57612aa6ec6
+  - enabled: 1
+    path: Assets/Scenes/SalaDeJantar.unity
+    guid: 092d8ea6589841547bf16c6594076f3f
+  - enabled: 1
+    path: Assets/Scenes/Corredor.unity
+    guid: a69535fa2dac2ce4493132ffab5f25cd
   m_configObjects: {}

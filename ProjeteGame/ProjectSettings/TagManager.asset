@@ -8,8 +8,13 @@ TagManager:
   - Lobby
   - Corredor
   - Sala de Jantar
-  - "escrit\xF3rio"
   - Biblioteca
+  - Escritorio
+  - Segundo andar
+  - Cozinha
+  - Piscina
+  - Banheiro
+  - Porao
   layers:
   - Default
   - TransparentFX
