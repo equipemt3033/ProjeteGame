@@ -278,6 +278,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3543829485788698696, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543829485788698696, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.75
+      objectReference: {fileID: 0}
     - target: {fileID: 3877081974991836843, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.01
@@ -346,7 +354,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
 --- !u!4 &95075659 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8900610207231464438, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3543829485788698696, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
   m_PrefabInstance: {fileID: 95075658}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &100696306

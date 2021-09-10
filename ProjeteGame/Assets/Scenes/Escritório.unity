@@ -242,7 +242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: bc69458199e82614e856ca2b2d649a4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -354,13 +354,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8575621090139546347, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.16027309
+      objectReference: {fileID: 0}
+    - target: {fileID: 8575621090139546347, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.07986345
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
---- !u!4 &562006004 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8900610207231464438, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
-  m_PrefabInstance: {fileID: 562006003}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &635180147
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +393,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &635180149
 SpriteRenderer:
@@ -529,7 +532,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1128873500
 SpriteRenderer:
@@ -611,7 +614,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1257821439
 SpriteRenderer:
@@ -693,7 +696,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1373047595
 EdgeCollider2D:
@@ -727,6 +730,11 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!4 &1401299949 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3543829485788698696, guid: d6227a1699a8fde498745a5c569342c0, type: 3}
+  m_PrefabInstance: {fileID: 562006003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1704357072
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +764,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1704357074
 SpriteRenderer:
@@ -936,7 +944,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: d9d359f520e98204ebfba6a2f6b114f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1020,7 +1028,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 14ed5a8689376744ea59acefcc07dffb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1119,7 +1127,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047594950}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1976177677
 SpriteRenderer:
@@ -1294,7 +1302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9afb25bca870f784b855ab10d4c6d639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 562006004}
+  target: {fileID: 1401299949}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: -10}
 --- !u!1 &2047594949
@@ -1327,12 +1335,12 @@ Transform:
   - {fileID: 376310165}
   - {fileID: 1895719044}
   - {fileID: 1742552769}
+  - {fileID: 1373047594}
   - {fileID: 1976177676}
   - {fileID: 1704357073}
   - {fileID: 1257821438}
   - {fileID: 635180148}
   - {fileID: 1128873499}
-  - {fileID: 1373047594}
   - {fileID: 1721532438}
   m_Father: {fileID: 0}
   m_RootOrder: 2

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger1 : MonoBehaviour
 {
-    public float timer = 3f;
+    public float timer = 0.5f;
     // Update is called once per frame
     void Update()
     {
@@ -19,25 +19,26 @@ public class SceneChanger1 : MonoBehaviour
                 SceneManager.LoadScene(1);//Carrega a cena do lobby
             }
             if (other.CompareTag("SalaDeJogos")){
-                Debug.Log("carregando a sala de jogos....");
                 SceneManager.LoadScene(2);//Carrega a cena da sala de jogos
             }
             if(other.CompareTag("Escritorio")){
                 SceneManager.LoadScene(3);//Carrega a cena do escritório
-                Debug.Log("carregando o escritorio....");
             }
             if(other.CompareTag("Sala de Jantar")){
                 SceneManager.LoadScene(4);//Carrega a cena da sala de jantar
-                Debug.Log("carregando a sala de jantar....");
             }
             if(other.CompareTag("Banheiro")){
                 SceneManager.LoadScene(5);//Carrega a cena do banheiro
-                Debug.Log("carregando o corredor....");
+            }
+            if (other.CompareTag("Biblioteca")){
+                SceneManager.LoadScene(6);//Carrega a cena da biblioteca
+            }
+            if (other.CompareTag("Cozinha")){
+                SceneManager.LoadScene(7);//Carrega cena da cozinha
             }
             if (other.CompareTag("Corredor")){
-                SceneManager.LoadScene(6);//Carrega a cena do corredor
+                SceneManager.LoadScene(8);//Carrega a cena do corredor
             }
-            
         }
     }
 }
