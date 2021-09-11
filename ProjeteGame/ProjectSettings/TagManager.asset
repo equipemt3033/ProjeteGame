@@ -15,6 +15,7 @@ TagManager:
   - Piscina
   - Banheiro
   - Porao
+  - Sala de fora
   layers:
   - Default
   - TransparentFX

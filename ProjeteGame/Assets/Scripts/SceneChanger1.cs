@@ -36,8 +36,14 @@ public class SceneChanger1 : MonoBehaviour
             if (other.CompareTag("Cozinha")){
                 SceneManager.LoadScene(7);//Carrega cena da cozinha
             }
+            if (other.CompareTag("Piscina")){
+                SceneManager.LoadScene(8);//Carrega a cena da piscina
+            }
+            if (other.CompareTag("Sala de fora")){
+                SceneManager.LoadScene(9);//Carrega a cena de fora
+            }
             if (other.CompareTag("Corredor")){
-                SceneManager.LoadScene(8);//Carrega a cena do corredor
+                SceneManager.LoadScene(10);//Carrega a cena do corredor
             }
         }
     }
