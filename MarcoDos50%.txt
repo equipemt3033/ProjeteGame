@@ -1,0 +1,15 @@
+Entrega do marco dos 50%
+
+A equipe reuniu todos os arquivos de desenvolvimento na plataforma do GitHub, as partes do jogo que já estão funcionando, juntamente com o 
+protótipo da página HTML já se encontram comitadas e disponíveis publicamente para download.
+
+As ações do jogador já se encontram bem desenvolvidas, sendo possível ler uma das cartas do jogo apertando a tecla "e" na frente da mesa da 
+cena da biblioteca, mostrando um monólogo logo em seguida que dá sequência com um clique do mouse.
+
+O artigo também se encontra bem avançado, a equipe já desenvolveu 100% dos tópicos, tirando o tópico de "resultados" que precisa ser 
+finalizado.
+
+
+Os próximos passos da equipe serão continuar o desenvolvimento do jogo, suas falas, textos, animações, etc... e também o desenvolvimento da 
+página para download.
+
