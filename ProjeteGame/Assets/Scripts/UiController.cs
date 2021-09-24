@@ -9,7 +9,6 @@ public class UiController : MonoBehaviour
     public GameObject Monolog;
     public bool trigger;
     private bool imageEnabled = false;
-
     private void Update()
     {
         if (trigger == true && Input.GetKeyDown(KeyCode.E)) {
@@ -20,10 +19,15 @@ public class UiController : MonoBehaviour
         if (!trigger)
         {
             Image.SetActive(false);
+
             if (imageEnabled)
             {
-               Monolog.SetActive(true);
-               imageEnabled = false;
+                GetComponent<Collider2D>().enabled = false;
+                imageEnabled = false;
+
+                if (Monolog != null)  Monolog.SetActive(true);
+
+                else return;
             }
         }
     }
