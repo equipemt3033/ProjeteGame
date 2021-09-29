@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5fb3e16cf8a90f44d964b67911f132f4
+guid: 8d65ccc884530f54eb8e224a2cdd6420
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,9 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Rimouski
-  fallbackFontReferences: []
+  - Antaro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 422e9e77a4dd4bb4985362d694e2b471, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class UiController : MonoBehaviour
 {
-    public GameObject Image;
-    public GameObject Monolog;
+    [SerializeField] private GameObject Image;
+    [SerializeField] private GameObject Monolog;
     public bool trigger;
     private bool imageEnabled = false;
+
     private void Update()
     {
         if (trigger == true && Input.GetKeyDown(KeyCode.E)) {

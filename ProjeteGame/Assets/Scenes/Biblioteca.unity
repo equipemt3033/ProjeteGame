@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173976708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6735115, y: -3.0835414, z: 24.631317}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.28, y: -0.1, z: 24.631317}
+  m_LocalScale: {x: 0.7783, y: 0.8337, z: 1}
   m_Children: []
   m_Father: {fileID: 641605710}
   m_RootOrder: 3
@@ -210,7 +210,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: ca28d57724bcfa242b83a69024d139fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -235,7 +235,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17911828, y: 0.34992862}
+  m_Offset: {x: 0.034546137, y: -1.3734636}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -246,7 +246,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1514871, y: 1.7681451}
+  m_Size: {x: 0.72415817, y: 3.2362204}
   m_EdgeRadius: 0
 --- !u!1 &201644268
 GameObject:
@@ -445,10 +445,10 @@ MonoBehaviour:
   m_text: "A primeira parte do servi\xE7o j\xE1 est\xE1 encaminhada e deve ser colocada
     em pr\xE1tica nas pr\xF3ximas semanas. \nQuanto ao pagamento, acredito\r\nque
     n\xE3o teremos problemas. \nMesmo assim, prefiro que seja feito um dep\xF3sito
-    em uma conta no exterior, VOC\xCA SABER\xC1 O N\xDAMERO QUANDO PRECISAR."
+    em uma conta no exterior, voc\xEA saber\xE1 o n\xFAmero quando precisar."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
-  m_sharedMaterial: {fileID: -8415074746434835418, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3f6fc4279e85cac4a9e1c620218d31b7, type: 2}
+  m_sharedMaterial: {fileID: 5071567049611039400, guid: 3f6fc4279e85cac4a9e1c620218d31b7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -472,8 +472,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -934,7 +934,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 21748461c8c8f584f90d800c60ac0d69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2679,7 +2679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626742759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.85, y: -3.39, z: 24.631317}
+  m_LocalPosition: {x: 3.53, y: -3.21, z: 24.631317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 641605710}
@@ -2764,7 +2764,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23172402, y: 0.49310255}
+  m_Offset: {x: -0.31819755, y: 0.49310255}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2775,7 +2775,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99349666, y: 2.1562052}
+  m_Size: {x: 0.8205496, y: 2.1562052}
   m_EdgeRadius: 0
 --- !u!1 &1632718073
 GameObject:
