@@ -1709,8 +1709,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nIsso n\xE3o \xE9 muito conclusivo, pois n\xE3o sei se ele morreu ou
-    se foi um dos que pediu demiss\xE3o. \nVou anotar pra checar mais tarde....\n"
+  m_text: "\nIsso n\xE3o \xE9 muito conclusivo, j\xE1 que ele foi um dos que pediu
+    demiss\xE3o. \nVou anotar pra checar mais tarde....\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
   m_sharedMaterial: {fileID: -8415074746434835418, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
