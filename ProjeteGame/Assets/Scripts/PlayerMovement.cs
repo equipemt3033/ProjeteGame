@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,14 +10,19 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 movement;
     public string facing;
     public float speed = 5f;
-
     private int animDirection;
+
+    private void Start()
+    {
+       
+    }
 
     // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        
     }
      void FixedUpdate()
     {

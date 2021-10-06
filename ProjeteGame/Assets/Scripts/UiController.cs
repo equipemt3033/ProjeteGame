@@ -12,25 +12,31 @@ public class UiController : MonoBehaviour
 
     private void Update()
     {
-        if (trigger == true && Input.GetKeyDown(KeyCode.E)) {
-            Image.SetActive(true);
-            imageEnabled = true;
-        }
-
-        if (!trigger)
+        if (Image != null)
         {
-            Image.SetActive(false);
-
-            if (imageEnabled)
+            if (trigger == true && Input.GetKeyDown(KeyCode.E))
             {
-                GetComponent<Collider2D>().enabled = false;
-                imageEnabled = false;
+                Image.SetActive(true);
+                imageEnabled = true;
+            }
 
-                if (Monolog != null)  Monolog.SetActive(true);
+            if (!trigger)
+            {
+                Image.SetActive(false);
 
-                else return;
+                if (imageEnabled)
+                {
+                    GetComponent<Collider2D>().enabled = false;
+                    imageEnabled = false;
+
+                    if (Monolog != null) Monolog.SetActive(true);
+
+                    else return;
+                }
             }
         }
+        else return;
+        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

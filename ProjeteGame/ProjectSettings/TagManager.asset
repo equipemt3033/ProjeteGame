@@ -16,6 +16,7 @@ TagManager:
   - Banheiro
   - Porao
   - Sala de fora
+  - Intereactable
   layers:
   - Default
   - TransparentFX
