@@ -1028,11 +1028,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.704438
+      value: 6.89
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2220154
+      value: 5.77
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1564,7 +1564,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1377543057}
-  - component: {fileID: 1377543056}
   m_Layer: 0
   m_Name: PiscinaInteractions
   m_TagString: Untagged
@@ -1572,18 +1571,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1377543056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377543055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2471be33b7ac6c241be8e75d998d05ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1377543057
 Transform:
   m_ObjectHideFlags: 0

@@ -26,8 +26,8 @@ public class UiController : MonoBehaviour
 
                 if (imageEnabled)
                 {
-                    GetComponent<Collider2D>().enabled = false;
                     imageEnabled = false;
+                    GetComponent<Collider2D>().enabled = false;
 
                     if (Monolog != null) Monolog.SetActive(true);
 

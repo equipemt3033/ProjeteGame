@@ -945,7 +945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131432331}
   - component: {fileID: 1131432332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lobby
   m_TagString: Lobby
   m_Icon: {fileID: 0}
@@ -1350,7 +1350,7 @@ GameObject:
   - component: {fileID: 1317790397}
   m_Layer: 0
   m_Name: escadas
-  m_TagString: Segundo andar
+  m_TagString: Sala de estar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2042,11 +2042,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.886
+      value: 14.28
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.872
+      value: -2.35
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155589, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.z

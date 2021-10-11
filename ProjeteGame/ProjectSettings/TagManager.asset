@@ -10,13 +10,18 @@ TagManager:
   - Sala de Jantar
   - Biblioteca
   - Escritorio
-  - Segundo andar
   - Cozinha
   - Piscina
   - Banheiro
   - Porao
   - Sala de fora
-  - Intereactable
+  - Sala de estar
+  - Corredor2
+  - Quarto1
+  - Quarto2
+  - Quarto cofre
+  - Banheiro1
+  - Banheiro2
   layers:
   - Default
   - TransparentFX
@@ -24,8 +29,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - CorredorParaLobby
+  - Corredor2ParaSala
   - 
   - 
   - 
