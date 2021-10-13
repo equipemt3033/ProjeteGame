@@ -9,12 +9,12 @@ public class UiController : MonoBehaviour
     [SerializeField] private GameObject Monolog;
     public bool trigger;
     private bool imageEnabled = false;
-    public AudioSource audio;
+    public AudioSource audioSrc;
     public AudioClip firstAudio;
     public AudioClip secoundAudio;
     private void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audioSrc = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -24,8 +24,8 @@ public class UiController : MonoBehaviour
             if (trigger == true && Input.GetKeyDown(KeyCode.E))
             {
                 Image.SetActive(true);
-                audio.clip = firstAudio;
-                audio.Play();
+                audioSrc.clip = firstAudio;
+                audioSrc.Play();
                 imageEnabled = true; 
             }
 
@@ -43,8 +43,8 @@ public class UiController : MonoBehaviour
 
                         if (secoundAudio != null)
                         {
-                            audio.clip = secoundAudio;
-                            audio.Play();
+                            audioSrc.clip = secoundAudio;
+                            audioSrc.Play();
                         }
                         else return;
                     }
