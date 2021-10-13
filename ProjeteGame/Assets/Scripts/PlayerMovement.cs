@@ -47,6 +47,9 @@ public class PlayerMovement : MonoBehaviour
                 case "Sala de estar":
                     transform.position = new Vector3(-11.2f, -2.35f, 0f);
                     break;
+                case "Porao":
+                    transform.position = new Vector3(-12.67f, -10.87f, 0f);
+                    break;
                 default:
                     break;
             }

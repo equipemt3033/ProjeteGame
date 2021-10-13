@@ -136,6 +136,12 @@ public class SceneChanger1 : MonoBehaviour
                 SalaDeEstar = false;
 
             }
+            if (other.CompareTag("Porao"))//Carrega o banheiro 2
+            {
+                SceneManager.LoadScene(18);
+                LastScene = "Porao";
+                Corredor = false;
+            }
         }
     }
 }

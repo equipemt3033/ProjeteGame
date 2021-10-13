@@ -139,7 +139,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cbc61af87f7717b47a7e9b646e61cda9, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -241,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &165263458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1381,6 +1381,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1629105088242192656, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5683608825533223288, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Name
       value: MonologoCorredor
@@ -1388,6 +1392,10 @@ PrefabInstance:
     - target: {fileID: 5683608825533223288, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866793285770370163, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7854421353776223568, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Pivot.x
@@ -1485,6 +1493,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "\n\nEsse deve ser o corredor principal da casa. Daqui j\xE1 d\xE1 pra
         ver os outros c\xF4modos. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378256773317465645, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
@@ -2395,11 +2407,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539695808556294184, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629105088242192656, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5683608825533223288, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Name
       value: MonologoCorredor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866793285770370163, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7854421353776223568, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Pivot.x
@@ -2501,6 +2521,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "\n\nEsse deve ser o corredor principal, consigo enxergar as salas daqui.
         D\xE1 pra ver at\xE9 as escadas para o segundo andar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378256773317465645, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
@@ -2777,11 +2801,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6079778911273866320, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.17
+      value: 14.22
       objectReference: {fileID: 0}
     - target: {fileID: 6079778911273866320, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.08
+      value: -2.13
       objectReference: {fileID: 0}
     - target: {fileID: 8005811096325155588, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_SortingOrder

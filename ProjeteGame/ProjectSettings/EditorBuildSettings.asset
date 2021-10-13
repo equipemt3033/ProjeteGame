@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2Corredor.unity
     guid: 9b38242b0c21d124fbe3433db9949328
+  - enabled: 1
+    path: "Assets/Scenes/Por\xE3o.unity"
+    guid: 395b11b789dfcf843bcc7a8c396c9e26
   m_configObjects: {}

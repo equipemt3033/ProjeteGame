@@ -1749,8 +1749,8 @@ MonoBehaviour:
   m_text: "Bem vindo ao caso sem sa\xEDda.\n\nPara se mover, use as teclas w, a,
     s e d. \nPara interagir com os objetos, chegue perto o bastante e use a tecla
     e. \ncaso precise de uma ajuda para localizar os objetos interag\xEDveis, utilize
-    o mapa da mans\xE3o fornecidos pelos seus contratantes utilizando a tecla m.
-    \n\nMais uma \xFAltima coisa... Boa sorte nesse caso!"
+    o mapa da mans\xE3o fornecido pelos seus contratantes utilizando a tecla m. \n\nMais
+    uma \xFAltima coisa... Boa sorte nesse caso!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
   m_sharedMaterial: {fileID: -8415074746434835418, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
@@ -2639,6 +2639,10 @@ PrefabInstance:
     - target: {fileID: 1539695808556294184, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629105088242192656, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5683608825533223288, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Name
