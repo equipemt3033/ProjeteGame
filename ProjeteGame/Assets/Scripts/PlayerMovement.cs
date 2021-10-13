@@ -11,10 +11,13 @@ public class PlayerMovement : MonoBehaviour
     public string facing;
     public float speed = 5f;
     private int animDirection;
+    private AudioSource audioSource;
+    private bool isMoving = false;
 
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         //Mapeamentos de respawn do jogador
         if(SceneChanger1.Corredor == true)
         {
@@ -125,6 +128,15 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement.x != 0 || movement.y != 0)  isMoving = true;
+        else isMoving = false;
+
+        if (isMoving)
+        {
+            if (!audioSource.isPlaying) audioSource.Play();
+        }
+        else audioSource.Stop();
     }
      void FixedUpdate()
     {
