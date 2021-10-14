@@ -624,7 +624,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nAlgo me diz que vou passar um tempo bom aqui, j\xE1 que o vento bateu
-    a porta assi que eu entreri e n\xE3o me deram nenhuma chave. "
+    a porta assim que eu entrei e n\xE3o me deram nenhuma chave. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
   m_sharedMaterial: {fileID: -8415074746434835418, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
@@ -759,8 +759,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nBom, mas n\xE3o faz mal. Vou fazer o que tenho que fazer aqui, devo
-    encontrar algumas pistas pela casa. \n"
+  m_text: "\n\nMas n\xE3o faz mal. Vou fazer o que tenho que fazer aqui, devo encontrar
+    algumas pistas pela casa. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
   m_sharedMaterial: {fileID: -8415074746434835418, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
@@ -1749,7 +1749,7 @@ MonoBehaviour:
   m_text: "Bem vindo ao caso sem sa\xEDda.\n\nPara se mover, use as teclas w, a,
     s e d. \nPara interagir com os objetos, chegue perto o bastante e use a tecla
     e. \ncaso precise de uma ajuda para localizar os objetos interag\xEDveis, utilize
-    o mapa da mans\xE3o fornecido pelos seus contratantes utilizando a tecla m. \n\nMais
+    o mapa da mans\xE3o fornecido pelos seus contratantes usando a tecla m. \n\nMais
     uma \xFAltima coisa... Boa sorte nesse caso!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32e76c979208f1e4789fe45ce6ceb157, type: 2}
@@ -2539,6 +2539,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1231786122560753100, guid: c85e51f8292375542881e736a5cf689d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4168712847305141018, guid: c85e51f8292375542881e736a5cf689d, type: 3}
       propertyPath: m_Name
       value: PauseMenuCanvas
