@@ -160,6 +160,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (movement.x > 0)
         {
+			transform.eulerAngles = new Vector3(0f, 180f, 0f);
             facing = "right";
             animDirection = 1;
         }
@@ -170,6 +171,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (movement.x < 0)
         {
+			transform.eulerAngles = new Vector3(0f, 0f, 0f);
             facing = "left";
             animDirection = 3;
         }
