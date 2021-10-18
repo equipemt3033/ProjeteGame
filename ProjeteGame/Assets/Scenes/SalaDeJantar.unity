@@ -450,7 +450,7 @@ MonoBehaviour:
   Image: {fileID: 1627271176}
   Monolog: {fileID: 0}
   trigger: 0
-  audio: {fileID: 259789465}
+  audioSrc: {fileID: 0}
   firstAudio: {fileID: 8300000, guid: cbc61af87f7717b47a7e9b646e61cda9, type: 3}
   secoundAudio: {fileID: 0}
 --- !u!61 &259789464
@@ -727,6 +727,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1231786122560753100, guid: c85e51f8292375542881e736a5cf689d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4168712847305141017, guid: c85e51f8292375542881e736a5cf689d, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
@@ -818,6 +822,10 @@ PrefabInstance:
     - target: {fileID: 4168712847305141022, guid: c85e51f8292375542881e736a5cf689d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024780701454315163, guid: c85e51f8292375542881e736a5cf689d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c85e51f8292375542881e736a5cf689d, type: 3}
@@ -1134,6 +1142,14 @@ PrefabInstance:
     - target: {fileID: 8005811096325155835, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
       propertyPath: m_Offset.y
       value: 0.47168124
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942726158223294918, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
+      propertyPath: m_Size.y
+      value: 0.62344027
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942726158223294918, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.36122113
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbc2402ad07923f44b21b508822b9423, type: 3}
@@ -1726,6 +1742,10 @@ PrefabInstance:
     - target: {fileID: 1539695808556294184, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629105088242192656, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5683608825533223288, guid: d4410f4c3c69af2408a511715bac5adc, type: 3}
       propertyPath: m_Name
