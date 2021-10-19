@@ -31,7 +31,7 @@ export function Main({ onOpenAboutModal }: MainProps) {
                     </button>
 
                     <button type="button" id="download" >
-                        BAIXAR
+                        <a href="https://github.com/equipemt3033/Download" target="_blank">BAIXAR</a>
                         <img src={ DownloadImg } className="download-icon" alt="Download icon"/>
                     </button>
 
