@@ -1,229 +1,181 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 7887 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1288; Version 2009; 64bit' Language: 'pt' Physical Memory: 16282 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/sofis/Pictures/Sofia/ETE/PROJETE/REPO/Projete2021/ProjeteGame2021/ProjeteGame
+C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/ProjeteGame2021/ProjeteGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56018
-Successfully changed project path to: C:/Users/sofis/Pictures/Sofia/ETE/PROJETE/REPO/Projete2021/ProjeteGame2021/ProjeteGame
-C:/Users/sofis/Pictures/Sofia/ETE/PROJETE/REPO/Projete2021/ProjeteGame2021/ProjeteGame
+52569
+Successfully changed project path to: C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/ProjeteGame2021/ProjeteGame
+C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/ProjeteGame2021/ProjeteGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 115.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/sofis/Pictures/Sofia/ETE/PROJETE/REPO/Projete2021/ProjeteGame2021/ProjeteGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/ProjeteGame2021/ProjeteGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   
-    VRAM:     128 MB
-    Driver:   10.18.10.4425
+    VRAM:     4055 MB
+    Driver:   27.21.14.5167
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004256 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009024 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 156.35 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 116.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.223 seconds
+- Completed reload, in  4.773 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003017 seconds.
+Registered in 0.003397 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.38 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 258.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.819 seconds
+- Completed reload, in  3.986 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.9 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2277.
-Total: 5.021800 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.157100 ms MarkObjects: 4.291200 ms  DeleteObjects: 0.148700 ms)
+Total: 20.164500 ms (FindLiveObjects: 10.671600 ms CreateObjectMapping: 0.462400 ms MarkObjects: 8.923100 ms  DeleteObjects: 0.104700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Backgrounds/A2/Banheiro1/portaD.png
-  artifactKey: Guid(cb18af736c2a0ff44b8f85b5b0490e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Banheiro1/portaD.png using Guid(cb18af736c2a0ff44b8f85b5b0490e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfb8d282feacfe6f904622561a7d0d8') in 0.173248 seconds
-  Import took 0.179707 seconds .
+  path: Assets/Prefabs/ButtonHover.prefab
+  artifactKey: Guid(7d74c7be5215d63438d362e517722e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ButtonHover.prefab using Guid(7d74c7be5215d63438d362e517722e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ae3f5102cf0d4f616333359304c294') in 0.136677 seconds
+  Import took 0.232321 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.137505 seconds.
-  path: Assets/Backgrounds/A2/Banheiro2/portaD.png
-  artifactKey: Guid(28b54a8deac49894ca0d3ac7b2be762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Banheiro2/portaD.png using Guid(28b54a8deac49894ca0d3ac7b2be762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5495d10b3ff14ed0ea59049d5947700f') in 0.029820 seconds
-  Import took 0.034962 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/Prefabs/char2.png
+  artifactKey: Guid(2411bc84fae03cb48acfeb61deec2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/char2.png using Guid(2411bc84fae03cb48acfeb61deec2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c60b40402b204eb9b696171bbe8741') in 0.420293 seconds
+  Import took 0.430064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.574579 seconds.
-  path: Assets/Scenes/2Banheiro1.unity
-  artifactKey: Guid(4cc6b3430b84ce84f8c295681d460367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Banheiro1.unity using Guid(4cc6b3430b84ce84f8c295681d460367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e82b47fe82e5035df5e4af52074f03') in 0.034653 seconds
-  Import took 0.044490 seconds .
+  Time since last request: 0.000592 seconds.
+  path: Assets/Prefabs/MonologoTemplate.prefab
+  artifactKey: Guid(d4410f4c3c69af2408a511715bac5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MonologoTemplate.prefab using Guid(d4410f4c3c69af2408a511715bac5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639b81b3b9f6b6eb782591c59e5cc869') in 0.245604 seconds
+  Import took 0.290498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.826485 seconds.
-  path: Assets/Backgrounds/A2/Corredor2/portaD.png
-  artifactKey: Guid(2524b65fc4bec454d903e24a15e529b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Corredor2/portaD.png using Guid(2524b65fc4bec454d903e24a15e529b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7e4cbe6ec4a1fcd7064594a6919f03') in 0.028542 seconds
-  Import took 0.036493 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefabs/Player 1.prefab
+  artifactKey: Guid(dbc2402ad07923f44b21b508822b9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player 1.prefab using Guid(dbc2402ad07923f44b21b508822b9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96219342fa4ff5ebf2ff603d7192399b') in 0.248168 seconds
+  Import took 0.263580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/Backgrounds/A2/Corredor2/portaE.png
-  artifactKey: Guid(d9d35bf95e8e7fa43be7a1de9e88caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Corredor2/portaE.png using Guid(d9d35bf95e8e7fa43be7a1de9e88caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8043e2003d4b3710c7894e7ef0969f') in 0.038580 seconds
-  Import took 0.044560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.315058 seconds.
-  path: Assets/Scenes/2Quarto1.unity
-  artifactKey: Guid(5685cdf8610336f44a057e394adfe932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Quarto1.unity using Guid(5685cdf8610336f44a057e394adfe932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b54909c13a61650f3c5a9e23ef7cb7') in 0.033472 seconds
-  Import took 0.045644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.566041 seconds.
-  path: Assets/Backgrounds/A2/Quarto1/portaE.png
-  artifactKey: Guid(a5da63fc81313494ea07dc1dc78905d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Quarto1/portaE.png using Guid(a5da63fc81313494ea07dc1dc78905d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc3bff0bdde4b591ba48bafb511c64b') in 0.026990 seconds
-  Import took 0.036254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.642137 seconds.
-  path: Assets/Scenes/2Quarto1.unity
-  artifactKey: Guid(5685cdf8610336f44a057e394adfe932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Quarto1.unity using Guid(5685cdf8610336f44a057e394adfe932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82401880c5f6d08336f4250a21f11b3c') in 0.013383 seconds
-  Import took 0.019381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.795329 seconds.
+  Time since last request: 0.000491 seconds.
   path: Assets/Scenes/2Corredor.unity
   artifactKey: Guid(9b38242b0c21d124fbe3433db9949328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2Corredor.unity using Guid(9b38242b0c21d124fbe3433db9949328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575268b7adf34f8e7ce7dec537a4e6fd') in 0.038049 seconds
-  Import took 0.049344 seconds .
+Start importing Assets/Scenes/2Corredor.unity using Guid(9b38242b0c21d124fbe3433db9949328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e710dd0393bc3691d9f80c09e2d333') in 0.083774 seconds
+  Import took 0.099380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.192889 seconds.
-  path: Assets/Backgrounds/A2/Quarto2/portaD.png
-  artifactKey: Guid(dc495ad8798a1fb4484f7e3710cf2daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/Quarto2/portaD.png using Guid(dc495ad8798a1fb4484f7e3710cf2daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2aa34f1fce2fb72af88f13bd1df941') in 0.025774 seconds
-  Import took 0.033530 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/PauseMenuCanvas.prefab
+  artifactKey: Guid(c85e51f8292375542881e736a5cf689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseMenuCanvas.prefab using Guid(c85e51f8292375542881e736a5cf689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b56f8ca176e0ac623c45acb5305953') in 0.255888 seconds
+  Import took 0.278797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.526421 seconds.
-  path: Assets/Backgrounds/A2/QuartoCofre/portaE.png
-  artifactKey: Guid(c15838ad73263db4bb90eb39414a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/QuartoCofre/portaE.png using Guid(c15838ad73263db4bb90eb39414a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7beb1ac1c90022911cfb6fc35f01b75') in 0.024416 seconds
-  Import took 0.032711 seconds .
+  Time since last request: 0.001264 seconds.
+  path: Assets/Prefabs/Mapas.prefab
+  artifactKey: Guid(ddc02f7bbb5df554499d3c106d168ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mapas.prefab using Guid(ddc02f7bbb5df554499d3c106d168ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bca2b950aa10e4a5a80a72c51bfb62e') in 0.476943 seconds
+  Import took 0.590921 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.002205 seconds.
-  path: Assets/Backgrounds/A2/QuartoCofre/portaE.png
-  artifactKey: Guid(c15838ad73263db4bb90eb39414a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/QuartoCofre/portaE.png using Guid(c15838ad73263db4bb90eb39414a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7beb1ac1c90022911cfb6fc35f01b75') in 0.025084 seconds
-  Import took 0.031817 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 32.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 5.722400 ms (FindLiveObjects: 0.836700 ms CreateObjectMapping: 0.243000 ms MarkObjects: 4.610000 ms  DeleteObjects: 0.030900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 53.605314 seconds.
-  path: Assets/Backgrounds/A2/SalaDeEstar/portaD.png
-  artifactKey: Guid(89807442102bde54895be7782858c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/SalaDeEstar/portaD.png using Guid(89807442102bde54895be7782858c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf559b04c25a90f78e7416f38ed085') in 0.026922 seconds
-  Import took 0.034683 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 3.937500 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.541700 ms  DeleteObjects: 0.024000 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Backgrounds/A2/SalaDeEstar/portaE.png
-  artifactKey: Guid(26560c0d522311444ba07ab22754cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/SalaDeEstar/portaE.png using Guid(26560c0d522311444ba07ab22754cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce0076f7c5a2799ace308fdd439b348') in 0.027644 seconds
-  Import took 0.033211 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.1 MB.
+System memory in use after: 53.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Backgrounds/A2/SalaDeEstar/portaD.png
-  artifactKey: Guid(89807442102bde54895be7782858c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/SalaDeEstar/portaD.png using Guid(89807442102bde54895be7782858c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf559b04c25a90f78e7416f38ed085') in 0.025083 seconds
-  Import took 0.030969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Backgrounds/A2/SalaDeEstar/portaE.png
-  artifactKey: Guid(26560c0d522311444ba07ab22754cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/A2/SalaDeEstar/portaE.png using Guid(26560c0d522311444ba07ab22754cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce0076f7c5a2799ace308fdd439b348') in 0.027687 seconds
-  Import took 0.033407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 288.484927 seconds.
-  path: Assets/Backgrounds/Banheiro/portaD.png
-  artifactKey: Guid(6d7d02b837a46bb4ba10edcf0b30f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/Banheiro/portaD.png using Guid(6d7d02b837a46bb4ba10edcf0b30f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b812c9a65e55b67a5aa9ed02d3b2798c') in 0.025578 seconds
-  Import took 0.032594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000852 seconds.
-  path: Assets/Backgrounds/Banheiro/portaD.png
-  artifactKey: Guid(6d7d02b837a46bb4ba10edcf0b30f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/Banheiro/portaD.png using Guid(6d7d02b837a46bb4ba10edcf0b30f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b812c9a65e55b67a5aa9ed02d3b2798c') in 0.022661 seconds
-  Import took 0.028701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.139852 seconds.
-  path: Assets/Scenes/Corredor.unity
-  artifactKey: Guid(a69535fa2dac2ce4493132ffab5f25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Corredor.unity using Guid(a69535fa2dac2ce4493132ffab5f25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678e586253e2ba89f1fefeb159a3168c') in 0.012172 seconds
-  Import took 0.017541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.157582 seconds.
-  path: Assets/Backgrounds/Corredor/portaE.png
-  artifactKey: Guid(513cf6e0e0884da418bdaeafc8a4d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backgrounds/Corredor/portaE.png using Guid(513cf6e0e0884da418bdaeafc8a4d07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14f864b09e159889372cbf8c7ec161') in 0.025649 seconds
-  Import took 0.032277 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 4.324100 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.166600 ms MarkObjects: 3.732900 ms  DeleteObjects: 0.037700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
