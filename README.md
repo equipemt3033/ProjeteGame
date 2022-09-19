@@ -10,6 +10,12 @@
   O jogo foi feito usando a engine Unity e a linguagem C#, os sprites e cenários são de autoria própria. O página web de download do jogo foi feita em ReactJS em conjunto com typescript.
   
 <br>
+  
+ # Como iniciar o aplicativo:
+ 
+  Baixe e extraia a release e então rode o arquivo "ProjeteGame.exe".
+  
+<br>
 
  # Desenvolvedores:
   
